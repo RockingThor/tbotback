@@ -7,6 +7,8 @@ const cors = require("cors");
 
 dotenv.config();
 
+console.log(process.env.BOT_TOKEN);
+
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
 const WEB_APP_URL = "https://pepto.rohitnandi.xyz/";
